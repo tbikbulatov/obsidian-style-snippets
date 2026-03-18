@@ -28,7 +28,7 @@ body.theme-dark {
     --link-color-hover: var(--interactive-accent-hover);
     --text-accent: var(--interactive-accent);
     --text-accent-hover: var(--interactive-accent-hover);
-    --italic-color: #d05329;
+    --italic-color: #ab644c;
 
     --background-modifier-hover: var(--interactive-hover);
     --selection-background: rgba(89, 102, 115, 0.45);
@@ -274,9 +274,10 @@ body {
     color: var(--italic-color);
     font-weight: var(--italic-weight);
 }
-b, strong {
+b,
+strong {
     font-weight: calc(var(--font-weight) + var(--bold-modifier));
-    color: rgb(255, 120, 129);;
+    color: #de737a;
 }
 
 /* ------------------------------------------------------
